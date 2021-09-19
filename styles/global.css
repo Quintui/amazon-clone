@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+	.link {
+		@apply cursor-pointer hover:underline;
+	}
+	.middleHidden {
+		@apply hidden md:block;
+	}
+}
